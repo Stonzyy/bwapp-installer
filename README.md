@@ -19,10 +19,25 @@ Link : https://sourceforge.net/projects/bwapp/
 
 after Script Done :
 
-- sudo nano /var/www/html/bWAPP/admin/settings.php 
 
-change : $db_password = "bug"; --> $db_password = "";
+$~ sudo mousepad /var/www/html/bWAPP/admin/settings.php 
 
+change : 
+
+$db_username = "root"; --> $db_username = "user";
+
+$db_password = "bug"; --> $db_password = "pass";
+
+
+$~ sudo mysql
+
+create user 'user'@'localhost' identified by 'pass';
+
+grant all privileges on bWAPP.* to 'user'@'localhost' identified by 'pass';
+
+ctrl+c
+
+Now All Done bWAPP Link : http://localhost/bWAPP/install.php
 
 # ----------------------------------------------------------------------
 
