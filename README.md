@@ -39,12 +39,6 @@ ctrl+c
 
 Now All Done bWAPP Link : http://localhost/bWAPP/install.php
 
-# ----------------------------------------------------------------------
 
 
-if This Error shown
 
-# bWAPP: Connection failed: “Access denied for user 'root'@'localhost'”
-
-
-Solve : https://superuser.com/questions/1286445/bwapp-connection-failed-access-denied-for-user-rootlocalhost-when-click
