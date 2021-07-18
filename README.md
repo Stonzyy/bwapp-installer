@@ -16,6 +16,14 @@ Link : https://sourceforge.net/projects/bwapp/
 
 4 - sudo ./bWAPP.sh
 
+
+after Script Done :
+
+- sudo nano /var/www/html/bWAPP/admin/settings.php 
+
+change : $db_password = "bug"; --> $db_password = "";
+
+
 # ----------------------------------------------------------------------
 
 
