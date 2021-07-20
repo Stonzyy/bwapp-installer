@@ -7,6 +7,6 @@ sudo chmod 777 */
 sudo service apache2 start
 sudo service mysql start
 echo "bWAPP Ready To Start"
-
-
-
+echo "Link :"
+echo
+echo "http://localhost/bWAPP/install.php"
