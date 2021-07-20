@@ -8,6 +8,5 @@ sudo service apache2 start
 sudo service mysql start
 echo "bWAPP Ready To Start"
 
-open http://localhost/bWAPP/install.php
 
 
